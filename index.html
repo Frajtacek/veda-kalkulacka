@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vědecká Kalkulačka</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+    <h1>Opáčko vědy: Kalkulačky</h1>
+
+    <div class="kalkulacka-box">
+        <h2>Obvod a obsah obdélníku</h2>
+        <p>Zadejte délky stran obdélníku v (cm):</p>
+        
+        <div>
+            <label for="stranaA">Strana a:</label>
+            <input type="number" id="stranaA" placeholder="např. 5">
+        </div>
+        
+        <div>
+            <label for="stranaB">Strana b:</label>
+            <input type="number" id="stranaB" placeholder="např. 10">
+        </div>
+        
+        <button id="vypocitejBtn">Vypočítej</button>
+        
+        <h3>Výsledky:</h3>
+        <p id="vysledek"></p>
+    </div>
+
+    <script src="skript.js"></script>
+</body>
+</html>
